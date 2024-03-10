@@ -1,5 +1,4 @@
 'use strict';
-
 class TableTemplate {
     static fillIn(id, dictionary, columnName) {
         const table = document.querySelector('#' + id);
